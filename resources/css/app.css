@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: "Roboto";
+}
+.text-gold{
+    color: #d2ab66;
+}
+.bg-gold{
+    background-color: #d2ab66;
+}
+
+footer{
+    background-color:#d2ab66 ;
+    padding:10px 20px !important;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1100px;    
+    margin: 0 auto;
+  }
+  @media only screen and (width <= 1024px) {
+    .wrapper {
+      width: auto !important;
+    }
+  }
